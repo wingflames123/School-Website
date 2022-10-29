@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="icon" type="image/x-icon" href="images/logo.jpg">
+	<meta charset="utf-8">
+	<title> Beeston Montessori School</title>
+	<script type="text/javascript">
+		function initMap() {
+  // The location of Uluru
+  // , 
+  const loc = { lat: 5.563956548597418, lng: -0.28876430261688024 };
+
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 50,
+    center: loc,
+  });
+
+  const marker = new google.maps.Marker({
+    position: loc,
+    map: map,
+  });
+}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="home.html">
+		    	<div>
+		    		<img src="./images/logo.jpg" style="height: 70px; width: 70px;">
+		    		Beeston Montessori
+
+		    	</div>
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		  </div>
+		</nav>
+		<div class="carousel"><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  </div>
+	  <div class="carousel-inner item">
+	    <div class="carousel-item active carousel-img">
+	      <img src="./images/1.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item carousel-img">
+	      <img src="./images/2.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item carousel-img">
+	      <img src="./images/3.jpg" class="d-block w-100" alt="...">
+	    </div>
+
+	    <div class="carousel-item carousel-img">
+	      <img src="./images/4.jpg" alt="...">
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+		<div class="col-12 main">
+			<div class="row card-container">
+					<div class="col-6">
+						<h3>About us</h3>
+						<p>Beeston Montessori school started 15 years as a daycare center with one school and with about 5 students. 2011 is when the school started as a primary school and 2019 is when it started as a daycare center. </p>
+
+						<p> Head Adminstrator: Asiedua Apoku
+						Proprietress: Cynthia Beston </p>
+
+						<p> Motto: Preserve to Exellence </p>
+					</div>
+
+					<div class="col-6">
+						<img src="./images/students.jpg" class="img-fluid w-100"></div>
+			</div>
+
+			<div class="row card-container">
+				<h1 class="text-center">Our classes</h1>
+				<div style="display: flex; justify-content: space-evenly;">
+					<div class="box" style="background-color: #E91E63;">
+						<h3 style="color: white;">Pre-School</h3>
+					</div>
+
+					<div class="box" style="background-color: #4DD0E1;">
+						<h3 style="color: white;">Primary</h3>
+					</div>
+
+					<div class="box" style="background-color: #FFB74D;">
+						<h3 style="color: white;">JHS</h3>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-12 contact" >
+					<div>
+						<h3 style="color: white"> Contact Us </h3>
+					<ul>
+						<li style="color: white;">(024) 354-3378 </li>
+						<li style="color: white;">Beestonmontessori@yahoo.com</li>
+					</ul>
+
+					<a href="">
+					<i class="fab fa-instagram"></i>
+				</a>
+				
+				<a href="https://www.facebook.com/Beeston-Montessori-School-1524757370882563/">
+					<i class="fab fa-facebook-square" style="height: 40px; width: 40px;"></i>
+				</a>
+					</div>
+
+						
+
+				</div>
+			</div>
+		
+		<div class="row">
+			<div class="col-12 footer">
+				
+
+			 </div>
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>	
+	 <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZWHgUcoyV_kd4KC0Fe3W0p7a3QfuSdV8&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+</body>
+</html>
